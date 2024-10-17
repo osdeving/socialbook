@@ -33,6 +33,7 @@ nav {
 .nav-left ul li {
     list-style: none;
     display: inline-block;
+    margin-right: 15px;
 }
 
 .nave-left ul li img {
@@ -241,7 +242,7 @@ nav {
 
 .story-gallery {
     display: flex;
-    align-items: space-between;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
@@ -294,7 +295,7 @@ nav {
     background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url('images/status-5.png');
 }
 
-.story.story1 img{
+.story .story1 img {
     top: unset;
     left: 50%;
     bottom: 40px;
@@ -330,5 +331,131 @@ nav {
 
 .user-profile small {
     font-size: 12px;
+    
+}
+
+.post-input-container {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input-container textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    resize: none;
+    border-bottom: 1px solid #ccc;
+    
+    background: transparent;
+}
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-post-links a img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.post-container {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.user-profile span {
+    font-size: 13px;
+    color: #9a9a9a;
+
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+
+}
+
+.post-text span {
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-text a {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.post-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-icons div img {
+    width: 18px;
+    margin-right: 10px;
+
+}
+
+.activity-icons div {
+    display: inline-block;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+
+.post-row a {
+    color: #9a9a9a;
+}
+
+.load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    background: transparent;
+    color: #626262;
+    border-radius: 4px;
+    border: 1px solid #9a9a9a;
+
+}
+
+.footer {
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
     
 }
